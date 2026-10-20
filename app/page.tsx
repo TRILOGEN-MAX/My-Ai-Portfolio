@@ -112,7 +112,7 @@ export default function Portfolio() {
     <h3 className="text-sm font-mono text-cyan-400 uppercase mb-8 tracking-widest">Establish_Connection</h3>
     <div className="space-y-4">
       {/* Email Link */}
-      <a href="vishnugoku9898@gmail.com" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
+      <a href="mailto:vishnugoku9898@gmail.com" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
         <span>&gt; EMAIL_LINK</span>
         <span className="text-[10px] opacity-0 group-hover:opacity-100 transition-all text-cyan-400">CONNECT</span>
       </a>
