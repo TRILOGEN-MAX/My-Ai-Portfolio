@@ -54,7 +54,7 @@ export default function Portfolio() {
         <div className="inline-block px-3 py-1 mb-6 text-[10px] font-mono text-cyan-400 border border-cyan-400/50 rounded-full bg-cyan-400/10 animate-pulse">
           SYSTEM_STATUS: OPTIMIZED // ROLE: AI_ENGINEER
         </div>
-       <h1 className="text-4xl sm:text-6xl md:text-8xl font-black tracking-tighter text-white mb-6 leading-none">
+       <h1 className="text-5xl sm:text-6xl md:text-8xl font-black tracking-tighter text-white mb-6 leading-none">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
             AUTOMATION.
           </span>
