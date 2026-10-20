@@ -138,7 +138,7 @@ export default function Portfolio() {
                 </div>
             </div>
           </div>
-        </div>
+      
       </section>
 
       {/* THE PROJECT ARCHIVE (Grid) */}
