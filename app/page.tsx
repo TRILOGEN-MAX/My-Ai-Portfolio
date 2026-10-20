@@ -175,7 +175,7 @@ export default function Portfolio() {
 
       <footer className="relative z-10 py-12 border-t border-slate-800 text-center">
         <div className="text-xs font-mono text-slate-600 tracking-widest uppercase">
-          End of Transmission // © {new Date().getFullYear()} VISHNU.AI
+          End of Transmission // © 2024 VISHNU.AI
         </div>
       </footer>
     </div>
