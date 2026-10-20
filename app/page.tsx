@@ -142,7 +142,7 @@ export default function Portfolio() {
       </section>
 
       {/* THE PROJECT ARCHIVE (Grid) */}
-      <section id="archive" className="relative z-10 py-20 px-6 max-w-6xl mx-auto">
+      <section id="archive" className="relative z-10 mt-32 py-20 px-6 max-w-6xl mx-auto">
         <div className="flex items-center gap-4 mb-12">
           <div className="h-px flex-1 bg-slate-800"></div>
           <h2 className="text-sm font-mono uppercase tracking-[0.3em] text-slate-500">Project_Database</h2>
