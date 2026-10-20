@@ -118,13 +118,13 @@ export default function Portfolio() {
       </a>
       
       {/* LinkedIn Link - Added target="_blank" for professional UX */}
-      <a href="https://www.linkedin.com/in/vishnu-narayanan-k-020383409/?isSelfProfile=true" target="_blank" rel="noopener noreferrer" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
+      <a href=https://www.linkedin.com/in/vishnu-narayanan-k-020383409/?isSelfProfile=true target="_blank" rel="noopener noreferrer" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
         <span>&gt; LINKEDIN_DATA</span>
         <span className="text-[10px] opacity-0 group-hover:opacity-100 transition-all text-cyan-400">CONNECT</span>
       </a>
       
       {/* GitHub Link - Added target="_blank" for professional UX */}
-      <a href="https://github.com/TRILOGEN-MAX" target="_blank" rel="noopener noreferrer" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
+      <a href=https://github.com/TRILOGEN-MAX target="_blank" rel="noopener noreferrer" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
         <span>&gt; GITHUB_REPO</span>
         <span className="text-[10px] opacity-0 group-hover:opacity-100 transition-all text-cyan-400">CONNECT</span>
       </a>
