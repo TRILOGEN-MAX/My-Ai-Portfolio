@@ -31,7 +31,7 @@ const PROJECTS = [
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-[#01040a] text-slate-300 font-sans selection:bg-cyan-500/30 overflow-x-hidden">
+    <div className="min-h-screen bg-[#01040a] text-slate-300 font-sans selection:bg-cyan-500/30 overflow-x-clip max-w-full">>
       {/* BACKGROUND ENGINE */}
       <div className="fixed inset-0 z-0">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b12_1px,transparent_1px),linear-gradient(to_bottom,#1e293b12_1px,transparent_1px)] bg-[size:50px_50px]"></div>
