@@ -31,7 +31,7 @@ const PROJECTS = [
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-[#01040a] text-slate-300 font-sans selection:bg-cyan-500/30">
+    <div className="min-h-screen bg-[#01040a] text-slate-300 font-sans selection:bg-cyan-500/30 overflow-x-hidden">
       {/* BACKGROUND ENGINE */}
       <div className="fixed inset-0 z-0">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b12_1px,transparent_1px),linear-gradient(to_bottom,#1e293b12_1px,transparent_1px)] bg-[size:50px_50px]"></div>
@@ -54,8 +54,7 @@ export default function Portfolio() {
         <div className="inline-block px-3 py-1 mb-6 text-[10px] font-mono text-cyan-400 border border-cyan-400/50 rounded-full bg-cyan-400/10 animate-pulse">
           SYSTEM_STATUS: OPTIMIZED // ROLE: AI_ENGINEER
         </div>
-        <h1 className="text-6xl md:text-8xl font-black tracking-tighter text-white mb-6 leading-none">
-          INTELLIGENT <br/>
+       <h1 className="text-4xl sm:text-6xl md:text-8xl font-black tracking-tighter text-white mb-6 leading-none">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
             AUTOMATION.
           </span>
