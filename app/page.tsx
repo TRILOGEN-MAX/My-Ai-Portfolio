@@ -106,25 +106,31 @@ export default function Portfolio() {
           </div>
 
           {/* THE TERMINAL CONTACT CARD */}
-          <div className="p-8 rounded-3xl border border-slate-800 bg-black/60 backdrop-blur-sm flex flex-col justify-between shadow-2xl relative overflow-hidden">
-            <div className="absolute -top-10 -right-10 w-32 h-32 bg-cyan-500/10 blur-3xl"></div>
-            <div>
-                <h3 className="text-sm font-mono text-cyan-400 uppercase mb-8 tracking-widest">Establish_Connection</h3>
-                <div className="space-y-4">
-                    <a href="mailto:your-email@gmail.com" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
-                        <span>&gt; EMAIL_LINK</span>
-                        <span className="text-[10px] opacity-0 group-hover:opacity-100 transition-all text-cyan-400">CONNECT</span>
-                    </a>
-                    <a href="https://linkedin.com/in/yourname" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
-                        <span>&gt; LINKEDIN_DATA</span>
-                        <span className="text-[10px] opacity-0 group-hover:opacity-100 transition-all text-cyan-400">CONNECT</span>
-                    </a>
-                    <a href="https://github.com/yourname" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
-                        <span>&gt; GITHUB_REPO</span>
-                        <span className="text-[10px] opacity-0 group-hover:opacity-100 transition-all text-cyan-400">CONNECT</span>
-                    </a>
-                </div>
-            </div>
+<div className="p-8 rounded-3xl border border-slate-800 bg-black/60 backdrop-blur-sm flex flex-col justify-between shadow-2xl relative overflow-hidden">
+  <div className="absolute -top-10 -right-10 w-32 h-32 bg-cyan-500/10 blur-3xl"></div>
+  <div>
+    <h3 className="text-sm font-mono text-cyan-400 uppercase mb-8 tracking-widest">Establish_Connection</h3>
+    <div className="space-y-4">
+      {/* Email Link */}
+      <a href="mailto:your-email@gmail.com" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
+        <span>&gt; EMAIL_LINK</span>
+        <span className="text-[10px] opacity-0 group-hover:opacity-100 transition-all text-cyan-400">CONNECT</span>
+      </a>
+      
+      {/* LinkedIn Link - Added target="_blank" for professional UX */}
+      <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
+        <span>&gt; LINKEDIN_DATA</span>
+        <span className="text-[10px] opacity-0 group-hover:opacity-100 transition-all text-cyan-400">CONNECT</span>
+      </a>
+      
+      {/* GitHub Link - Added target="_blank" for professional UX */}
+      <a href="https://github.com/yourname" target="_blank" rel="noopener noreferrer" className="flex justify-between items-center group text-slate-400 hover:text-white transition-all font-mono text-sm p-2 rounded-lg hover:bg-slate-800">
+        <span>&gt; GITHUB_REPO</span>
+        <span className="text-[10px] opacity-0 group-hover:opacity-100 transition-all text-cyan-400">CONNECT</span>
+      </a>
+    </div>
+  </div>
+</div>
             <div className="mt-auto pt-6 border-t border-slate-800">
                 <div className="flex justify-between items-center">
                     <span className="text-[10px] font-mono text-slate-500 uppercase">System_Status</span>
