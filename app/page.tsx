@@ -31,7 +31,7 @@ const PROJECTS = [
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-[#01040a] text-slate-300 font-sans selection:bg-cyan-500/30 overflow-x-clip max-w-full">
+    <div className="min-h-screen bg-[#01040a] text-slate-300 font-sans selection:bg-cyan-500/30 overflow-x-hidden max-w-full">
       {/* BACKGROUND ENGINE */}
       <div className="fixed inset-0 z-0">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b12_1px,transparent_1px),linear-gradient(to_bottom,#1e293b12_1px,transparent_1px)] bg-[size:50px_50px]"></div>
@@ -39,27 +39,28 @@ export default function Portfolio() {
       </div>
 
       {/* HUD NAVIGATION */}
-      <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-5xl px-6 py-3 rounded-2xl bg-slate-900/80 backdrop-blur-xl border border-slate-700/50 flex justify-between items-center shadow-2xl">
+      <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-5xl px-6 py-3 rounded-2xl bg-slate-900/80 backdrop-blur-xl border border-slate-700/50 flex justify-between items-center shadow-2xl">
         <div className="text-lg font-black tracking-tighter text-white">
           VISHNU<span className="text-cyan-400">.</span>AI
         </div>
-        <div className="flex gap-6 text-xs font-mono uppercase tracking-widest">
+        <div className="flex gap-4 text-[10px] sm:text-xs font-mono uppercase tracking-widest">
           <a href="#archive" className="hover:text-cyan-400 transition-colors">Project_Archive</a>
           <a href="https://github.com" className="text-white bg-cyan-600 px-3 py-1 rounded-md hover:bg-cyan-400 transition-all shadow-[0_0_15px_rgba(6,182,212,0.4)]">Git_Hub</a>
         </div>
       </nav>
 
       {/* HERO SECTION */}
-      <header className="relative z-10 pt-32 pb-20 px-6 text-center">
+      <header className="relative z-10 pt-32 pb-20 px-6 text-center max-w-full">
         <div className="inline-block px-3 py-1 mb-6 text-[10px] font-mono text-cyan-400 border border-cyan-400/50 rounded-full bg-cyan-400/10 animate-pulse">
           SYSTEM_STATUS: OPTIMIZED // ROLE: AI_ENGINEER
         </div>
-       <h1 className="text-5xl sm:text-6xl md:text-8xl font-black tracking-tighter text-white mb-6 leading-none">
+        <h1 className="text-5xl sm:text-7xl md:text-8xl font-black tracking-tighter text-white mb-6 leading-none">
+          INTELLIGENT <br/>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
             AUTOMATION.
           </span>
         </h1>
-        <p className="max-w-2xl mx-auto text-slate-400 text-lg md:text-xl font-light leading-relaxed">
+        <p className="max-w-2xl mx-auto text-slate-400 text-base sm:text-lg md:text-xl font-light leading-relaxed px-4">
           Architecting the convergence of <span className="text-white">Generative AI</span>, 
           <span className="text-white">Deep Learning</span>, and <span className="text-white">Robotic Kinematics</span>.
         </p>
