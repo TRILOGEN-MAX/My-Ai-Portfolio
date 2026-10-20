@@ -41,7 +41,7 @@ export default function Portfolio() {
       {/* HUD NAVIGATION */}
       <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-5xl px-6 py-3 rounded-2xl bg-slate-900/80 backdrop-blur-xl border border-slate-700/50 flex justify-between items-center shadow-2xl">
         <div className="text-lg font-black tracking-tighter text-white">
-          TRILOGEN<span className="text-cyan-400"> </span>AI
+          TRILOGEN<span className="text-cyan-400">" "</span>AI
         </div>
         <div className="flex gap-4 text-[10px] sm:text-xs font-mono uppercase tracking-widest">
           <a href="#archive" className="hover:text-cyan-400 transition-colors">Project_Archive</a>
